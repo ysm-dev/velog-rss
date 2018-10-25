@@ -1,0 +1,16 @@
+{
+  "name": "velog-rss",
+  "version": "1.0.0",
+  "description": "Generate velog rss feed.",
+  "main": "app.js",
+  "repository": "https://github.com/ysm0622/velog-rss.git",
+  "author": "Chris Yang <ysm0622@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "rss": "^1.2.2"
+  },
+  "devDependencies": {
+    "serverless-domain-manager": "^2.3.6"
+  }
+}

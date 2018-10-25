@@ -1,0 +1,16 @@
+service: velog-rss
+
+provider:
+  name: aws
+  runtime: nodejs8.10
+
+  stage: dev
+  region: ap-northeast-2
+
+functions:
+  getRSS:
+    handler: handler.getRSS
+    events:
+      - http:
+          path: /
+          method: get

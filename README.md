@@ -1,2 +1,3 @@
-# brunch-rss
-Automatically generate brunch rss feed.
+# velog-rss
+
+Function that generate velog rss feed.

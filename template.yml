@@ -1,0 +1,12 @@
+Resources:
+  RSS:
+    Type: AWS::Serverless::Function
+    Properties:
+      Handler: handler.getRSS
+      Runtime: nodejs8.10
+      Events:
+        getRSSbyId:
+          Type: Api
+          Properties:
+            Path: /
+            Method: get
